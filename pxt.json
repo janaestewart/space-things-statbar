@@ -1,5 +1,5 @@
 {
-    "name": "Space things",
+    "name": "Space things w status bars",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -9,17 +9,19 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.4.40",
+        "target": "1.4.41",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
